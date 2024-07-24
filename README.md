@@ -1,31 +1,32 @@
-# Automated Garden Door Opener
+# Automated Garden Door Opener via SMS
 
-This project is an automated garden door opener system, designed to control the opening and closing of a garden door using an Arduino microcontroller. The system includes a motor mechanism, various electronic components, and a user-friendly interface for operation.
+This project is an automated garden door opener system, designed to be controlled via SMS messages using an Arduino microcontroller. The system includes a motor mechanism, various electronic components, and a GSM module for receiving SMS commands.
 
 ## Overview
 
-The automated garden door opener system uses an Arduino board, a motor driver, and sensors to automate the movement of a garden door. The system can be controlled remotely and is designed to be energy-efficient and easy to use.
+The automated garden door opener system allows for remote control of a garden door using SMS commands sent to a GSM module connected to an Arduino board. The system is designed for convenience, security, and ease of use.
 
 ### Key Features
-- **Remote Control**: Operate the garden door using a remote or smartphone app.
-- **Manual Override**: Allows for manual control in case of system malfunction or preference.
-- **Energy Efficient**: Optimized to minimize power consumption.
-- **Customizable Settings**: Users can set the speed and extent of door movement.
+- **SMS Control**: Operate the garden door by sending SMS commands.
+- **Manual Override**: Manual control is available as a fallback option.
+- **Secure and Efficient**: Only pre-authorized numbers can control the door, ensuring security and efficient use of resources.
+- **Customizable Settings**: Users can adjust door movement settings through the system.
 
 ## Components
 
-1. **Arduino Board**: The main controller of the system, responsible for processing inputs and controlling outputs.
-2. **Motor Driver**: Manages the motor's speed and direction for opening and closing the door.
-3. **Power Supply**: Powers the entire system, ensuring consistent operation.
-4. **Sensors**: Detect the position and status of the door.
-5. **Relay Module**: Facilitates the control of high-power devices such as motors.
+1. **Arduino Board**: The core controller that processes SMS commands and controls the door mechanism.
+2. **GSM Module**: Receives SMS commands and communicates with the Arduino board.
+3. **Motor Driver**: Controls the motor's speed and direction for opening and closing the door.
+4. **Power Supply**: Provides necessary power to the system components.
+5. **Sensors**: Monitor the position of the door.
+6. **Relay Module**: Controls the activation of the motor.
 
 ## Getting Started
 
 ### Prerequisites
 
-- Basic understanding of Arduino and electronic components.
-- Required hardware components listed above.
+- Basic knowledge of Arduino, GSM modules, and electronic components.
+- Necessary hardware components (listed above).
 - Arduino IDE installed on your computer.
 
 ### Installation
@@ -39,13 +40,13 @@ The automated garden door opener system uses an Arduino board, a motor driver, a
 
 ### Usage
 
-1. Assemble all hardware components according to the provided circuit diagram.
-2. Connect the system to the power supply.
-3. Use the remote control or smartphone app to operate the garden door.
+1. Set up all hardware components as per the circuit diagram provided in the repository.
+2. Power on the system and ensure the GSM module is operational.
+3. Send an SMS command from a pre-authorized number to control the garden door.
 
 ## How It Works
 
-The system employs an Arduino microcontroller to manage a motor connected to the garden door. Sensors monitor the door's position, and the motor driver regulates the door's movement. The user can control the system remotely or manually via a switch.
+The system employs an Arduino microcontroller to manage a motor connected to the garden door. the motor driver regulates the door's movement. The user can control the system remotely or manually via a switch.
 
 ### Images
 
@@ -62,11 +63,4 @@ _Figure 2: Motor mechanism attached to the garden door._
 
 ![Click here to watch the system in action](https://github.com/user-attachments/assets/83da426b-6abb-48d4-a7c0-3b6a16a53ca7)
 
-
-
-
-
-## Contributions
-
-Contributions, issues, and feature requests are welcome! Please check the [issues page](https://github.com/yourusername/automated-garden-door-opener/issues) for more information.
 
