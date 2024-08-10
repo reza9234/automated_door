@@ -61,6 +61,8 @@ _Figure 2: Motor mechanism attached to the garden door._
 
 ### Video Demonstration
 
-![Click here to watch the system in action](https://github.com/user-attachments/assets/83da426b-6abb-48d4-a7c0-3b6a16a53ca7)
+![Click here to watch the system in action](https://github.com/user-attachments/assets/404ec65a-940f-45e1-a6a3-a33356dc0076)
+
+
 
 
